@@ -142,7 +142,7 @@
 							"type": "Expression"
 						},
 						"source_file_format": {
-							"value": "null",
+							"value": "@coalesce(activity('Read Table Details').output.firstRow.source_file_format, '')",
 							"type": "Expression"
 						},
 						"source_system": {
@@ -191,7 +191,7 @@
 							"type": "Expression"
 						},
 						"merge_keys": {
-							"value": "null",
+							"value": "@coalesce(activity('Read Table Details').output.firstRow.merge_keys, '')",
 							"type": "Expression"
 						},
 						"table_name": {
