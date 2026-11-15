@@ -1,0 +1,12 @@
+{
+	"name": "CareSync1-data-factory",
+	"properties": {
+		"globalParameters": {
+			"email_recepient": {
+				"type": "string",
+				"value": "dipeshsuthar399@gmail.com"
+			}
+		}
+	},
+	"location": "centralindia"
+}
